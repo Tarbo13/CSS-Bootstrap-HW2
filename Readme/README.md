@@ -6,11 +6,14 @@ I this project I created a personal online portfolio using three diffent .html f
 ## Links
 
 [github files](https://github.com/Tarbo13/Portfolio)
+
+<br>
+
 [Portfolio webpage](https://tarbo13.github.io/Portfolio/)
 
 
 ### Screen shots
 
-![image](https://user-images.githubusercontent.com/68627417/93029234-8912cc00-f5ce-11ea-8f8f-e3190e90c546.png)
-![image](https://user-images.githubusercontent.com/68627417/93029277-cb3c0d80-f5ce-11ea-8873-da7b2fb773d1.png)
-![image](https://user-images.githubusercontent.com/68627417/93029302-ec9cf980-f5ce-11ea-8e95-9eb632da745d.png)
+![Portfolio](https://user-images.githubusercontent.com/68627417/93029595-ef005300-f5d0-11ea-9fc1-2bddcf6de737.png)
+![Contacts](https://user-images.githubusercontent.com/68627417/93029613-122b0280-f5d1-11ea-8f78-fdb220cd394b.png)
+![About](https://user-images.githubusercontent.com/68627417/93029634-3e468380-f5d1-11ea-85ec-2696dd4d6e28.png)
