@@ -14,6 +14,6 @@ I this project I created a personal online portfolio using three diffent .html f
 
 ### Screen shots
 
-![Portfolio](https://user-images.githubusercontent.com/68627417/93029595-ef005300-f5d0-11ea-9fc1-2bddcf6de737.png)
-![Contacts](https://user-images.githubusercontent.com/68627417/93029613-122b0280-f5d1-11ea-8f78-fdb220cd394b.png)
-![About](https://user-images.githubusercontent.com/68627417/93029634-3e468380-f5d1-11ea-85ec-2696dd4d6e28.png)
+![Portfolio](https://user-images.githubusercontent.com/68627417/93029801-d85afb80-f5d2-11ea-978c-68c505f113bb.png)
+![Contact](https://user-images.githubusercontent.com/68627417/93029812-f1fc4300-f5d2-11ea-9fe3-643c0197b257.png)
+![image](https://user-images.githubusercontent.com/68627417/93029839-296aef80-f5d3-11ea-88c9-e54b0f2e0ee4.png)
