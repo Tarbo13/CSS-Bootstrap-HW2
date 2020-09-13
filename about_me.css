@@ -1,0 +1,16 @@
+body {
+    background-color: #EBEBEB;
+}
+hr {
+    width: 100%;
+}
+main {
+    margin-bottom: 80px;
+}
+p {
+    margin-bottom: 150px;
+}
+.footer {
+    background-color: #4AAAA5;
+    height: 10px;
+}
