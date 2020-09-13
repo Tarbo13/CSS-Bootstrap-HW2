@@ -1,6 +1,6 @@
 # Project Discription
 
-I this project I created a personal online portfolio using three diffent .html files: about_me.html, contact.html, and portfolio.html.  My goal was to create a responsive web page, with working links to each section, using Bootstrap.  I acomplished this by linking the Bootstrap CSS to my .html files, then using the pre coded classes on the HTML elements.  
+In this project I created a personal online portfolio using three different .html files: about_me.html, contact.html, and portfolio.html.  My goal was to create a responsive web page, with working links to each section, using Bootstrap.  I accomplished this by linking the Bootstrap CSS to my .html files, then using the pre coded classes on the HTML elements.  Using the Bootstrap grid system, with columns and rows, I was able to get the three separate pages to layout correctly. 
 
 
 ## Links
