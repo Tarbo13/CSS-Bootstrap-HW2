@@ -14,6 +14,6 @@ In this project I created a personal online portfolio using three different .htm
 
 ### Screen shots
 
-![Portfolio](https://user-images.githubusercontent.com/68627417/93029801-d85afb80-f5d2-11ea-978c-68c505f113bb.png)
+![Portfolio](https://user-images.githubusercontent.com/68627417/93036823-c9d20b80-f5f5-11ea-958b-f5d3e7dd68dc.png)
 ![Contact](https://user-images.githubusercontent.com/68627417/93029812-f1fc4300-f5d2-11ea-9fe3-643c0197b257.png)
 ![image](https://user-images.githubusercontent.com/68627417/93029839-296aef80-f5d3-11ea-88c9-e54b0f2e0ee4.png)
