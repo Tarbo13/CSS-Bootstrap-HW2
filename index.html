@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light navco mb-5 bg-light">
-        <a class="navbar-brand" style="background-color: #4AAAA5; color: white" href="https://www.linkedin.com/feed/">Ben Robinson</a>
+        <a class="navbar-brand" style="color: black; font-weight: 900" href="https://www.linkedin.com/feed/">Ben Robinson <small>Jr. Webdeveloper</small></a>        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,53 +31,82 @@
       </nav>
 
      
-      <main class="container" style="background-color:#EBEBEB">
+      <main class="container">
         <div class="row">
           <div class="col-md-10 bg-light">
          
           <div class="row">
               <div class="col-md-12 mt-5">
-                  <h1 style="color: #4AAAA5">Portfolio</h1>
+                  <h1 style="color: #f2b707">Portfolio</h1>
+                  <h2 style="color: #43601b">Current Projects</h2>
                   <hr/>
                 </div>      
               </div>
               <div class="row">
-                  <div class="col-md-4 mt-3">
-                      <img class="img-fluid" src="http://placehold.jp/350x350.png">
+                  <div style="background: rgb(40,62,6);
+                  background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
+                  border-style: groove;" class="col-md-4 ml-3 mt-3">
+                    <p>Hike Local</p>
+                    <a href="https://snelson-seattle.github.io/HikeLocal/">
+                      <img class="img-fluid" src="Hike Local ScreenShot.PNG" alt="Hike ScreenShot" height="350" width="350">
+                    </a>
+                    <small><a href="https://github.com/snelson-seattle/HikeLocal/tree/develop">GitHub Repo</small></a>
+                    <p>With most of our local gyms, movie theaters, bars, restaurants and other social gathering spots being shut down due to the pandemic, we thought a tool to connect people to local trails to explore might be useful.  We all agreed on a trail finder app for our project and ran with the idea.  We wanted the app to look simple and sharp, as well as to make the interaction with the site as user friendly as possible.  On our landing page we wanted the user to immediately see their current location then present them with a simple set of search criteria so as to pinpoint local trails in their area based on this location.  Once presented with options, in the form of pin points on a map, the user can save a number of trails to review, then select a place to go explore. We used API calls from The Hiking Project, Google Maps, and OpenWeatherMap to acomplish this.</p>
                   </div>
-                  <div class="col-md-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.jp/350x350.png">
+                  <div style="background: rgb(40,62,6);
+                  background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
+                  border-style: groove;" class="col-md-4 ml-3 mt-3">
+                    <p>Work Day Scheduler</p>
+                    <a href="https://tarbo13.github.io/Day-Planner/">
+                    <img class="img-fluid" src="Planner ScreeShot.PNG" alt="Planner ScreenShot" height="350" width="350">
+                  </a>
+                  <small><a href="https://github.com/Tarbo13/Day-Planner">GitHub Repo</small></a>
+                  <p>Here I was tasked with creating a day planner app that would display and track the current time and day. My app consists of nine hour blocks of time that will be shaded a different color based on the time of day: (Grey == Past, Red == Present, & Green == Future). A user is able to enter their daily tasks into each hour block and save the entries so that they remain on the page after it is refreshed or closed and reopened.
+                    I used a combination of Bootstrap, JavaScript, JQuery, and CSS to create this app. Bootstrap's grid system is used to create the layout of the app. I then used various CSS classes to style the page. I also used FontAwesome in this project to get the disk icons that were used on the save buttons. I used JavaScript and JQuery to shade the various time blocks based on the current time of day. There are style classes in my .css file that pull the style instructions for past, present, and future. I used a click event on the save button to store the users input into each hour block into local storage. When my app reloads the users data remains on the page.
+                    I used moment.js to track the date and time of day. I was able to pull from their API by linking their CDN to my page and entering prewritten functions that moment provides in their documentation.</p>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.jp/350x350.png">
+                <div style="background: rgb(40,62,6);
+                background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
+                border-style: groove;" class="col-md-4 ml-3 mt-3">
+                  <P>Weather Dashboard</P>
+                  <a href="https://tarbo13.github.io/Weather_Dashboard/">
+                    <img class="img-fluid" src="Weather Dashboard ScreenShot.PNG" alt="Dashboard screenShot" height="350" width="350">
+                  </a>
+                  <small><a href="https://github.com/Tarbo13/Weather_Dashboard">GitHub Repo</small></a>
+                  <p>In this project I created a weather dashboard that takes in a city name from a user then displays the current weather info along with a five day forecast of the future. To create this app I used server side API's provided by OpenWeatherMap.org. My first challenge here was to get an ajax call and response set up between my app and OpenWeather's API. I was able to accomplish this by getting an API key from OpenWeather.org that allowed me access to their data. Once I had access I was able to get a JSON object returned to me with a long list of weather data I could use to create my weather dashboard. Using the JQuery $.ajax function I was able to use a "GET" method to request the data from the OpenWeather URL and call on the data within the object and array returned in the response.
+
+                    I then used variables to store the date from the response. I was able to single out specific items from the JSON object and array by calling them by name. For example, the name of the city could be retrieved using "response.name" or the wind speed by using "response.wind.speed." I then appended the values in these variables to the HTML so the results could be displayed on the users screen; this was done using a click handler function that captured the users inputted city and after a submit button was clicked. The OpenWeatherMap.org documentation also showed how to retrieve weather icons specific to the current day and times weather. Using the documentation provided by OpenWeatherMap.org I was able to bring these images into my app.</p>
                 </div>
                 <div class="col-md-4 mt-3">
-                    <img class="img-fluid" src="http://placehold.jp/350x350.png">
+                  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ben-robinson-815a41171"><a class="LI-simple-link" href='https://www.linkedin.com/in/ben-robinson-815a41171?trk=profile-badge'>Ben Robinson</a></div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-md-4 mt-3 mb-3">
                     <img class="img-fluid" src="http://placehold.jp/350x350.png">
                 </div>
-            </div>
+            </div> -->
           </div>
         </div>       
           
       </main>
 
-    <div class="row">
-      <div class="col-md-12 footer">
-
-      <footer id="sticky-footer" class="py-4 bg-dark text-white-50 mt-1">
+      <div class="row">
+        <div class="col-md-12 footer">
+    
+      <footer id="footer" class="py-4 bg-dark text-white-50 mt-1">
         <div class="container text-center">
           <small>Copyright &copy; <a href="https://www.linkedin.com/feed/">Linkedin Page</small></a>
-        </div>      
+        </div>  
       </footer>
-      
-    </div>
-  </div>
+    
+     </div>
+       </div>
           
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

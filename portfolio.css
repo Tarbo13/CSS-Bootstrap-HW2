@@ -5,10 +5,18 @@ main {
      margin-bottom: 78px;
 }
 body {
-    background-color: #EBEBEB;
+    background-color: #6B6B6A;
 }
 .footer {
-    background-color: #4AAAA5;
+    background-color: #f2b707;
     height: 10px;
 }
+/* .col-md-4 {
+    background: rgb(40,62,6);
+    background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
+    border-style: groove;
+} */
 
+ main {
+     background-color: #e2e2c0;
+ }
