@@ -20,3 +20,13 @@ body {
  main {
      background-color: #e2e2c0;
  }
+ .navbar {
+     background-color: #e2e2c0;
+ }
+ .nav-link {
+     color: black;
+ }
+ .floatR {
+     float: right;
+     margin-top: 25px;
+ }
