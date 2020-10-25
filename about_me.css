@@ -1,16 +1,33 @@
 body {
-    background-color: #EBEBEB;
+    background-color: #6B6B6A;
 }
 hr {
     width: 100%;
 }
 main {
     margin-bottom: 80px;
+    background-color: #e2e2c0;
+    border-style: inset;
+    border-width: thick;
+    /* background-color: #e2e2c0; */
 }
 p {
-    margin-bottom: 150px;
+    margin-bottom: 15px;
 }
 .footer {
-    background-color: #4AAAA5;
+    background-color: #f2b707;
     height: 10px;
+}
+img {
+    border-radius: 50%;
+}
+.navbar {
+    background-color: #e2e2c0;
+}
+.nav-link {
+    color: black;
+}
+.aboutP {
+    font-family: "overlock";
+    font-size: large;
 }

@@ -1,8 +1,12 @@
 body {
-    background-color: #EBEBEB;
+    background-color: #6B6B6A;
 }
 main {
+    background-color: #e2e2c0;
     margin-bottom: 188px;
+    border-style: inset;
+    border-top-width: thick;
+    
 }
 hr {
     width: 100%;
@@ -12,6 +16,18 @@ button {
     height: 65px;
 }
 .footer {
-    background-color: #4AAAA5;
+    background-color: #f2b707;
     height: 10px;
 }
+.navbar {
+    background-color: #e2e2c0;
+}
+.nav-link {
+    color: black;
+}
+.container {
+    border-top-style: inset;
+    border-top-width: thick;
+}
+
+ 

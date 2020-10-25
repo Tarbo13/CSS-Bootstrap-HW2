@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Overlock&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
@@ -37,54 +38,51 @@
          
           <div class="row">
               <div class="col-md-12 mt-5">
-                  <h1 style="color: #f2b707">Portfolio</h1>
+                  <h1 style="color: #bb8e07da; font-weight: 900">Portfolio</h1>
                   <h2 style="color: #43601b">Current Projects</h2>
                   <hr/>
                 </div>      
               </div>
               <div class="row">
-                  <div style="background: rgb(40,62,6);
-                  background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
-                  border-style: groove;" class="col-md-4 ml-3 mt-3">
-                    <p>Hike Local</p>
+                  <div style="background: rgb(106, 170, 10);
+                  background: linear-gradient(90deg, rgba(194, 168, 18, 0.337) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(7, 7, 1, 0.317) 100%); border-style: groove;" class="col-md-4 ml-3 mt-3">
+                    <h1 class="hikeH">Hike Local</h1>
                     <a href="https://snelson-seattle.github.io/HikeLocal/">
                       <img class="img-fluid" src="Hike Local ScreenShot.PNG" alt="Hike ScreenShot" height="350" width="350">
                     </a>
                     <small><a href="https://github.com/snelson-seattle/HikeLocal/tree/develop">GitHub Repo</small></a>
-                    <p>With most of our local gyms, movie theaters, bars, restaurants and other social gathering spots being shut down due to the pandemic, we thought a tool to connect people to local trails to explore might be useful.  We all agreed on a trail finder app for our project and ran with the idea.  We wanted the app to look simple and sharp, as well as to make the interaction with the site as user friendly as possible.  On our landing page we wanted the user to immediately see their current location then present them with a simple set of search criteria so as to pinpoint local trails in their area based on this location.  Once presented with options, in the form of pin points on a map, the user can save a number of trails to review, then select a place to go explore. We used API calls from The Hiking Project, Google Maps, and OpenWeatherMap to acomplish this.</p>
+                    <p class="hikeP">Hike Local is a web site that locates hiking trails based on a users location and desired difficulty.  I worked with a team to create this site and mostly focused on the front end development.  This app uses API calls from three diffrent sources to display the trail information the user desires. </p>
                   </div>
-                  <div style="background: rgb(40,62,6);
-                  background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
+                  <div style="background: rgb(106, 170, 10);
+                  background: linear-gradient(90deg, rgba(194, 168, 18, 0.337) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(7, 7, 1, 0.317) 100%);
                   border-style: groove;" class="col-md-4 ml-3 mt-3">
-                    <p>Work Day Scheduler</p>
+                    <h1 class="hikeH">Work Day Scheduler</h1>
                     <a href="https://tarbo13.github.io/Day-Planner/">
                     <img class="img-fluid" src="Planner ScreeShot.PNG" alt="Planner ScreenShot" height="350" width="350">
                   </a>
                   <small><a href="https://github.com/Tarbo13/Day-Planner">GitHub Repo</small></a>
-                  <p>Here I was tasked with creating a day planner app that would display and track the current time and day. My app consists of nine hour blocks of time that will be shaded a different color based on the time of day: (Grey == Past, Red == Present, & Green == Future). A user is able to enter their daily tasks into each hour block and save the entries so that they remain on the page after it is refreshed or closed and reopened.
-                    I used a combination of Bootstrap, JavaScript, JQuery, and CSS to create this app. Bootstrap's grid system is used to create the layout of the app. I then used various CSS classes to style the page. I also used FontAwesome in this project to get the disk icons that were used on the save buttons. I used JavaScript and JQuery to shade the various time blocks based on the current time of day. There are style classes in my .css file that pull the style instructions for past, present, and future. I used a click event on the save button to store the users input into each hour block into local storage. When my app reloads the users data remains on the page.
-                    I used moment.js to track the date and time of day. I was able to pull from their API by linking their CDN to my page and entering prewritten functions that moment provides in their documentation.</p>
+                  <p class="hikeP">This is a day planner app that allows a user to store "to do's" in hour blocks during the current day.  I used moment.js here to keep track of the date and time.  I used a combination of HTML, CSS, and JavaScript to create the layout.  Bootstrap grid system was used to create the structure of the planner.</p>
                 </div>
               </div>
               <div class="row">
-                <div style="background: rgb(40,62,6);
-                background: linear-gradient(90deg, rgba(40,62,6,0.33657212885154064) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(45,48,4,0.3169642857142857) 100%);
-                border-style: groove;" class="col-md-4 ml-3 mt-3">
-                  <P>Weather Dashboard</P>
+                <div style="background: rgb(106, 170, 10);
+                background: linear-gradient(90deg, rgba(194, 168, 18, 0.337) 0%, rgba(3,38,5,0.2861519607843137) 50%, rgba(7, 7, 1, 0.317) 100%); border-style: groove;" class="col-md-4 mb-3 ml-3 mt-3">
+                  <h1 class="hikeH">Weather Dashboard</h1>
                   <a href="https://tarbo13.github.io/Weather_Dashboard/">
                     <img class="img-fluid" src="Weather Dashboard ScreenShot.PNG" alt="Dashboard screenShot" height="350" width="350">
                   </a>
                   <small><a href="https://github.com/Tarbo13/Weather_Dashboard">GitHub Repo</small></a>
-                  <p>In this project I created a weather dashboard that takes in a city name from a user then displays the current weather info along with a five day forecast of the future. To create this app I used server side API's provided by OpenWeatherMap.org. My first challenge here was to get an ajax call and response set up between my app and OpenWeather's API. I was able to accomplish this by getting an API key from OpenWeather.org that allowed me access to their data. Once I had access I was able to get a JSON object returned to me with a long list of weather data I could use to create my weather dashboard. Using the JQuery $.ajax function I was able to use a "GET" method to request the data from the OpenWeather URL and call on the data within the object and array returned in the response.
-
-                    I then used variables to store the date from the response. I was able to single out specific items from the JSON object and array by calling them by name. For example, the name of the city could be retrieved using "response.name" or the wind speed by using "response.wind.speed." I then appended the values in these variables to the HTML so the results could be displayed on the users screen; this was done using a click handler function that captured the users inputted city and after a submit button was clicked. The OpenWeatherMap.org documentation also showed how to retrieve weather icons specific to the current day and times weather. Using the documentation provided by OpenWeatherMap.org I was able to bring these images into my app.</p>
+                  <p class="hikeP">This web site is able to take in a users city and display the current weather and a future five day forcast.  I had to use three seperate API calls here to generate the current weather, five day forcase, and uv information for the page. </p>
                 </div>
+                
                 <div class="col-md-4 mt-3">
                   <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="ben-robinson-815a41171"><a class="LI-simple-link" href='https://www.linkedin.com/in/ben-robinson-815a41171?trk=profile-badge'>Ben Robinson</a></div>
+                  <a href="https://github.com/Tarbo13">
                   <img class="mt-3" src="GitHub-Mark-120px-plus.png">
-                  <div class="floatR">
-                    
-                    <a href="https://drive.google.com/file/d/1r-Y1YEztjMERsta48by2aEfpQADcpTWP/view?usp=sharing" download>
+                </a>
+                  
+                <div class="floatR">                    
+                    <a href="https://tarbo13.github.io/resume/.">
                     <img src="ResumeDownload.png" height="100px" width="100px">
                     </a>
                   </div>
@@ -100,12 +98,13 @@
           
       </main>
 
+      
       <div class="row">
         <div class="col-md-12 footer">
     
       <footer id="footer" class="py-4 bg-dark text-white-50 mt-1">
         <div class="container text-center">
-          <small>Copyright &copy; <a href="https://www.linkedin.com/feed/">Linkedin Page</small></a>
+          <small>Copyright &copy; <a href="www.linkedin.com/in/benrobinsonwebdev">Linkedin Page</small></a>
         </div>  
       </footer>
     

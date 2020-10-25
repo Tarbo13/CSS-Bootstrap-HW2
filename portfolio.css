@@ -30,3 +30,11 @@ body {
      float: right;
      margin-top: 25px;
  }
+.hikeH {
+    font-family: "fredoka one";    
+    font-size: larger;
+}
+.hikeP {
+    font-family: "overlock";
+    font-size: large;
+}
