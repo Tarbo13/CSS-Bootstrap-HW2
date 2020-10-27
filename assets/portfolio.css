@@ -40,3 +40,8 @@ body {
     font-family: "overlock";
     font-size: large;
 }
+.navbar-toggler-icon {
+    color: white;
+    background-color: black;
+   
+}

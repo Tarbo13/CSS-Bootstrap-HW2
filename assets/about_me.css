@@ -49,3 +49,8 @@ img {
                  0 20px 20px rgba(0,0,0,.15);
 
 }
+.navbar-toggler-icon {
+    color: white;
+    background-color: black;
+   
+}

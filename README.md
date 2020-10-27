@@ -1,6 +1,6 @@
 # Project Discription
 
-Welcome to my updated portfolio page.  I initally created this page six weeks ago.  Using Bootstrap I created a responsive site that was basically a template for what was to come.  After six weeks of classes I now have the tools to create a more complete page with links to professional sites, my resume, and projects.  I used CSS and JavaScript to style the page.  Contact information has been added with a more tageted layout that better presents me to future employeers.   
+Welcome to my updated portfolio page.  I initially created this page six weeks ago.  Using Bootstrap I created a responsive site that was basically a template for what was to come.  After six weeks of classes I now have the tools to create a more complete page with links to professional sites, my resume, and projects.  I used CSS and JavaScript to style the page.  Contact information has been added with a more targeted layout that better presents me to future employers.   
 
 
 ## Links
